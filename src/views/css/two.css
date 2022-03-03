@@ -4,7 +4,7 @@
 }
 
 .img1P{
-    width: 70%;
+    width: 60%;
 }
 .perro-cover{
     background-image: url('../../assets/fondo2.png');
@@ -21,8 +21,8 @@
 }
 
 .carousel .slide .legend {
-  background-color: transparent !important;
-  height: 30vh;
+    
+  background-color: transparent !important;  
   flex: none;
   opacity: 1 !important;
   text-align: left !important;

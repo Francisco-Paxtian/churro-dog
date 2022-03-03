@@ -1,5 +1,6 @@
 import React from "react";
 import "./css/two.css";
+import "./css/one.css";
 const About = () => {
   return (
     <div className="about">
@@ -7,7 +8,7 @@ const About = () => {
         ChurroDog
       </h2>
       <div className="bg-[url('/src/assets/dogos.jpg')] w-full h-auto flex justify-center items-center mt-10 pb-20  ">
-        <div className="bg-white w-[95%] lg:w-[65%] 2xl:w-[50%]  h-auto lg:h-auto rounded-lg shadow-2xl shadow-[rgb(176,176,176)] p-6 text-center">
+        <div className="bg-white w-[95%] lg:w-[85%] 2xl:w-[75%]  h-auto lg:h-auto rounded-lg shadow-2xl shadow-[rgb(176,176,176)] p-6 text-center">
           <h3 className="text-lg lg:text-3xl font-bold text-azulito">
             Historia
           </h3>
@@ -28,7 +29,7 @@ const About = () => {
             Mi sueño era crear un alimento tipo BARF con menor humedad posible y
             qué alimentara a nuestras mascotas de forma sana y nutritiva después
             de innumerables pruebas nació{" "}
-            <a className="underline decoration-rojito font-bold">CHURROdog</a>.
+            <a className="underline decoration-rojito font-bold">ChurroDog</a>.
             <br></br>
             Existe una cita que rige mi compromiso con las mascotas :
             <p className="italic ">
@@ -38,6 +39,7 @@ const About = () => {
           </p>
         </div>
       </div>
+      <hr className="salto" />
       <div className="contenedor-general  w-auto h-full bg-white grid  lg:flex mt-20" >
         <div className="información bg-white w-full   lg:w-1/2 pb-[10%]">
           <h1 className="p-3 px-5 lg:text-xl lg:mt-5 2xl:text-xl 2xl:mt-10 2xl:pl-20 text-slate-800">

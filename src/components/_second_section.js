@@ -3,9 +3,9 @@ import React from 'react'
 const SecondSection = () => {
 
     return (
-        <div className="bandera  my-0 md:h-auto h-auto p-14 py-44 lg:h-auto flex content-center justify-center">
+        <div className="bandera  my-0 md:h-auto h-auto p-14 py-40 lg:h-auto flex content-center justify-center">
             <div class="md:flex md:space-x-9 space-y-9  lg:space-x-9 lg:space-y-0 content-center justify-center">
-                <div className="shadow-2xl font-medium shadow-black rounded-xl bg-white p-10  w-72 h-auto flex items-center justify-center lg:w-2/6">
+                <div className="shadow-2xl font-medium shadow-black rounded-xl bg-white p-10   h-auto flex items-center justify-center lg:w-auto">
                     <p className="lg:text-xl">
                         La mayoría de alimentos comerciales agregan un gran cantidad de
                         vegetales a su fórmula convirtiéndolos en una dieta para animales
@@ -18,7 +18,7 @@ const SecondSection = () => {
                         </a>
                     </p>
                 </div>
-                <div className=" shadow-2xl font-medium shadow-black rounded-xl bg-white p-10  w-72 h-auto grid content-center items-center justify-center lg:w-2/6">
+                <div className=" shadow-2xl font-medium shadow-black rounded-xl bg-white p-10   h-auto grid content-center items-center justify-center lg:w-auto">
                     <p className="lg:text-xl">
                         Con ChurroDog{" "}
                         <a class="underline decoration-rojito font-bold">
