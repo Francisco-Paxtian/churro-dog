@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img1P{
+    width: 70%;
+}
+.perro-cover{
+    background-image: url('../../assets/fondo2.png');
+    backdrop-filter: blur(0px);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+}
+
+.carousel .slide{
+
+    text-align: left !important;
+
+}
+
+.carousel .slide .legend {
+  background-color: transparent !important;
+  height: 30vh;
+  flex: none;
+  opacity: 1 !important;
+  text-align: left !important;
+}
