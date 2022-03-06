@@ -28,21 +28,20 @@ const Home = () => {
         <div className="one h-auto mb-20">
             {/* first section */}
             <Carouselx />
-            
+
 
             {/* second section */}
-            <hr className="salto" />
             <FirstSection />
-            
-            <hr className="salto" />
+
+
             <SecondSection />
 
             {/* third section */}
-            <hr className="salto" />
+
             <ThirdSection />
 
             {/* fourth section */}
-            
+
             {/* <hr className="salto" /> */}
             {/* <FourthSection /> */}
         </div>

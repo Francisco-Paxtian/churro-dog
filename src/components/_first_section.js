@@ -6,30 +6,49 @@ import {
 const FirstSection = () => {
 
     return (
-        <div className=" bg-white my-0">
+        <div className=" bg-white my-0 w-[90%] sm:w-[80%] margin-0-auto pb-8">
             <div className=" h-full">
                 <div className="md:flex h-full items-stretch border border-grisesito">
-                    <div className=" md:block md:w-2/3 h-1/3 bg-white p-10 lg:h-full lg:flex flex items-center justify-center">
-                        <img
-                            src={require("../assets/pitbull.png")}
-                            className="h-[32rem]"
-                            alt="churrodog perro feliz"
-                        ></img>
-                    </div>
-                    <div className=" md:block md:w-1/2  bg-white p-10 lg:h-full lg:flex flex items-center justify-center">
+
+                    <div className=" md:block md:w-2/5 h-1/3 bg-white p-10 lg:h-full lg:flex flex items-center justify-center">
                         <div>
-                            <h2 className="font-semibold text-2xl px-3 md:px-10 md:mt-0 md:text-2xl lg:text-4xl lg:mt-16 2xl:text-5xl 2xl:mt-20 text-slate-800  ">
-                                <a className="underline  decoration-rojito font-extrabold">
+                            <video
+                                controls
+
+                                className="md:h-[28rem] w-[100%]"
+                                alt="churrodog perro feliz"
+                            >
+                                <source src={require("../assets/churro-clip-2.mp4")} type="video/mp4"></source>
+                            </video >
+                            <div className=" text-sm italic  mt-5 text-azulito">
+                                Clientes satisfechos con ChurroDog
+                            </div>
+                        </div>
+                    </div>
+                    <div className=" md:block md:w-3/5  bg-white lg:h-full lg:flex flex items-center justify-center p-10 ">
+                        <div>
+                            <h2 className="font-semibold text-2xl md:mt-0 md:text-2xl lg:text-2xl 2xl:text-2xl text-slate-800  ">
+                                <a className="underline  decoration-rojito font-black">
                                     ChurroDog
                                 </a>{" "}
                                 es un alimento con causa, cada compra que tú haces se refleja
                                 en alimento para un perrito en situación de refugio.
                             </h2>
-                            <div class="my-12">
-                                <Link to="/productos" className="bg-rojito hover:bg-rojitoSubidito text-white font-semibold py-2 px-7 mx-2 my-5 md:mx lg:mx-9 lg:my-10   rounded-2xl">
+                            <div class="my-5">
+                                <Link to="/productos" className="bg-rojito hover:bg-rojitoSubidito text-white font-semibold py-1 px-5 my-5 md:mx   rounded-2xl">
                                     Comprar ahora
                                 </Link>
                             </div>
+
+                            <div className="mt-12 md:flex md:space-x-6">
+                                <div className="md:block md:w-1/2 ">
+                                    <img src={require("../assets/infor-1.jpg")} alt="churro anuncio 1" />
+                                </div>
+                                <div className="md:block md:w-1/2 mt-5 md:mt-0">
+                                    <img src={require("../assets/info-2.jpg")} alt="churro anuncio 2" />
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>

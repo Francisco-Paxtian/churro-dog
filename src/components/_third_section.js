@@ -3,16 +3,16 @@ import React from 'react'
 const ThirdSection = () => {
 
     return (
-        <div className="informacion lg:flex w-full lg:h-[80vh] xl:h-[80vh] bg-slate-900  ">
-            <div className=" w-screen lg:w-3/4 h-full xl:p-20 bg-white flex content-center items-center justify-center">
+        <div className="informacion lg:flex w-full lg:h-[80vh] xl:h-[80vh] mt-16 ">
+            <div className="px-2 w-screen lg:w-3/4 h-full xl:p-20 bg-white flex content-center items-center justify-center">
                 <img
                     src={require("../assets/PLATO CHURRITO SOLO.png")}
                     className="  xl:h-auto lg:w-8/12 my-10  h-96 shadow-2xl shadow-[rgb(176,176,176)] rounded-lg "
                     alt="churrodog perro feliz"
                 ></img>
             </div>
-            <div className="w-full h-full bg-white flex content-center items-center p-10 justify-center">
-                <div className="  shadow-lg  lg:w-[80%] p-10 h-auto rounded-lg border border-rojito">
+            <div className="w-full h-full bg-white flex content-center items-center p-2 md:sp-10 justify-center">
+                <div className="  shadow-lg  lg:w-[80%] p-10 h-auto rounded-sm border border-rojito">
                     <h1 className="lg:text-lg text-left italic">
                         No te has preguntado
                     </h1>

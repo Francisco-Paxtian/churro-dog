@@ -77,7 +77,7 @@ const Cart = () => {
   }
 
   return (
-    <div className="contenedor w-full h-full bg-grisesitoFuertito lg:flex lg:justify-center lg:content-center lg:p-10">
+    <div className="contenedor w-full h-full bg-grisesitoFuertito lg:flex lg:justify-center lg:content-center lg:p-10 ">
       <div className="contenedor-padre w-full lg:w-[60%] h-auto bg-grisesitoFuertito ">
         <div className="contenedor-hijo-titulo w-full lg:w-[100%] h-auto bg-white ">
           <h1 className=" text-2xl lg:text-3xl 2xl:text-3xl mt-5 font-bold p-3">

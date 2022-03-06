@@ -6,7 +6,7 @@ import {
 const Footer = () => {
 
     return (
-        <footer class="text-center lg:text-left bg-gray-100 text-gray-600">
+        <footer class="text-center lg:text-left bg-azulito text-white">
 
             <div class="mx-6 py-10 text-center md:text-left">
                 <div class="grid grid-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
@@ -46,16 +46,16 @@ const Footer = () => {
                             Contenido
                         </h6>
                         <p class="mb-4">
-                            <a href="/" class="text-gray-600">Inicio</a>
+                            <a href="/" class="text-white">Inicio</a>
                         </p>
                         <p class="mb-4">
-                            <a href="/sobre-nosotros" class="text-gray-600">Acerca de nosotros</a>
+                            <a href="/historia-de-churro-dog" class="text-white">Historia</a>
                         </p>
                         <p class="mb-4">
-                            <a href="/tienda-en-linea" class="text-gray-600">Productos</a>
+                            <a href="/tienda-en-linea" class="text-white">Productos</a>
                         </p>
                         <p>
-                            <a href="/contacto" class="text-gray-600">Contacto</a>
+                            <a href="/contacto" class="text-white">Contacto</a>
                         </p>
                     </div>
                     <div class="text-center">
@@ -63,7 +63,7 @@ const Footer = () => {
                             Contact
                         </h6>
                         <p class="flex items-center justify-center md:justify-start mb-4 lg:justify-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4B5563" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+
                             Jose Francisco Mario Arbesu Garcia
                         </p>
                         <p class="flex items-center justify-center md:justify-start mb-4 lg:justify-center" >
@@ -91,7 +91,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div class="text-center p-6 bg-gray-200">
+            <div class="text-center p-6 bg-rojito">
                 <span>ChurroDog</span>
 
             </div>

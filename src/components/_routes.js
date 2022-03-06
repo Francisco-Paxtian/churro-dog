@@ -24,7 +24,7 @@ const Rout = () => {
 
         <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route path="/sobre-nosotros" element={<About />} />
+            <Route path="/historia-de-churro-dog" element={<About />} />
             <Route path="/tienda-en-linea" element={<Products />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/contacto" element={<Contact />} />

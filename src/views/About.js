@@ -3,18 +3,18 @@ import "./css/two.css";
 import "./css/one.css";
 const About = () => {
   return (
-    <div className="about">
-      <h2 className=" text-center underline  decoration-rojito font-bold text-2xl p-3 px-5 md:px-10 md:mt-0 md:text-4xl lg:text-6xl lg:mt-16 2xl:text-8xl 2xl:mt-20 2xl:pl-20 text-slate-800  ">
+    <div className="about w-[90%] sm:w-[80%]  margin-0-auto">
+      <h2 className=" text-center underline  decoration-rojito font-black text-3xl mt-10 p-3 px-5 md:px-10 md:mt-0 md:text-3xl lg:text-4xl lg:mt-16 2xl:text-5xl 2xl:mt-20 2xl:pl-20 text-slate-800  ">
         ChurroDog
       </h2>
-      <div className="bg-[url('/src/assets/dogos.jpg')] w-full h-auto flex justify-center items-center mt-10 pb-20  ">
-        <div className="bg-white w-[95%] lg:w-[85%] 2xl:w-[75%]  h-auto lg:h-auto rounded-lg shadow-2xl shadow-[rgb(176,176,176)] p-6 text-center">
+      <div className="w-full h-auto flex justify-center items-center mt-10 pb-20  ">
+        <div className="bg-white  h-auto lg:h-auto rounded-lg  md:p-6 text-center">
           <h3 className="text-lg lg:text-3xl font-bold text-azulito">
             Historia
           </h3>
-          <p className="p-6 tracking-wide text-justify lg:text-center leading-loose lg:text-xl  2xl:text-xl">
+          <p className="md:p-6 tracking-wide text-justify historiaa leading-loose lg:text-xl  2xl:text-xl">
             Mi primera mascota se llamo layka en honor primer perrita que voló
-            al especio exterior.<br></br>
+            al especio exterior.<br></br><br></br>
             Otra mascota que tuve se llamo Capricornio un perrito maltes. estos
             dos angelitos me marcaron de por vida Y aprendí que la fidelidad y
             el amor tenían cuatro patas.<br></br>
@@ -29,7 +29,8 @@ const About = () => {
             Mi sueño era crear un alimento tipo BARF con menor humedad posible y
             qué alimentara a nuestras mascotas de forma sana y nutritiva después
             de innumerables pruebas nació{" "}
-            <a className="underline decoration-rojito font-bold">ChurroDog</a>.
+            <a className="underline decoration-rojito font-black">ChurroDog</a>.
+            <br></br>
             <br></br>
             Existe una cita que rige mi compromiso con las mascotas :
             <p className="italic ">
@@ -42,8 +43,8 @@ const About = () => {
       <hr className="salto" />
       <div className="contenedor-general  w-auto h-full bg-white grid  lg:flex mt-20" >
         <div className="información bg-white w-full   lg:w-1/2 pb-[10%]">
-          <h1 className="p-3 px-5 lg:text-xl lg:mt-5 2xl:text-xl 2xl:mt-10 2xl:pl-20 text-slate-800">
-            <p className="font-bold">Misión :</p>
+          <h1 className="p-3 px-5 lg:text-xl lg:mt-5  2xl:text-xl 2xl:mt-10 2xl:pl-20 text-slate-800">
+            <p className="font-bold ">Misión :</p>
             <br></br>
             Consolidar nuestra empresa como líder en la creación de alimentos
             naturales y orgánicos para mascotas por medio de la más alta

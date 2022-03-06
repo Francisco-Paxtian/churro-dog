@@ -4,6 +4,7 @@ import NavbarAdmin from "./components/_navarAdming";
 import Rout from './components/_routes'
 import Footer from './components/_footer'
 import { getUserCurrent } from './api/auth'
+import './views/css/one.css'
 function App() {
 
   const [user, setUser] = useState('')

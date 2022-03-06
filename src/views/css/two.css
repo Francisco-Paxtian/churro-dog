@@ -27,3 +27,11 @@
   opacity: 1 !important;
   text-align: left !important;
 }
+
+.margin-0-auto{
+    margin: 0 auto;
+}
+
+.historiaa{
+    line-height: 1.5rem;
+}
