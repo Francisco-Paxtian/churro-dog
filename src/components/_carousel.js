@@ -5,7 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Carouselx = () => {
   return (
-    <div className="w-[90%] sm:w-[80%] sm:pb-8 margin-0-auto">
+    <div className="w-[90%] sm:w-[100%] sm:pb-8 margin-0-auto">
       <Carousel
         autoPlay={true}
         infiniteLoop={true}
