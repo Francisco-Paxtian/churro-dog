@@ -3,6 +3,9 @@ import Product from "../components/_product";
 import { getUserCurrent } from '../api/auth'
 import axios from "axios";
 import Swal from "sweetalert2";
+import {
+  Link
+} from "react-router-dom"
 
 
 const Products = () => {
@@ -39,18 +42,25 @@ const Products = () => {
   };
 
   const alertAcount = () => {
-    Swal.fire({
-      icon: 'warning',
-      title: 'Churro amigo necesitas registrarte!!',
-      showConfirmButton: false,
-      timer: 1500
-    })
+    // Swal.fire({
+    //   icon: 'warning',
+    //   title: 'Churro amigo necesitas registrarte!!',
+    //   showConfirmButton: false,
+    //   timer: 1500
+    // })
   }
 
   return (
 
     <div>
-      {user.length === 0 ? <div className="py-[10rem] text-center font-bold text-2xl text-azulito">Para poder ver los productos neceistar iniciar sesión</div> :
+      {user.length === 0 ? <div className="py-[10rem] text-center font-bold text-2xl text-azulito">
+        Para poder ver los productos neceistar iniciar sesión 
+        <br />
+        <br />
+        <Link to="/cuenta" className="bg-rojito hover:bg-rojitoSubidito text-white font-black py-1 px-5 my-5 md:mx   rounded-2xl">
+            Registrate ahora
+        </Link>
+        </div> :
         <div className="contenedor padre  w-auto h-auto mb-20 sm:w-[95%] margin-0-auto ">
           <div className="w-full h-[auto] bg-white mx-auto">
             <div className="p-10">

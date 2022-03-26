@@ -35,7 +35,7 @@ const FirstSection = () => {
                                 en alimento para un perrito en situación de refugio.
                             </h2>
                             <div class="my-5">
-                                <Link to="/productos" className="bg-rojito hover:bg-rojitoSubidito text-white font-semibold py-1 px-5 my-5 md:mx   rounded-2xl">
+                                <Link to="/tienda-en-linea" className="bg-rojito hover:bg-rojitoSubidito text-white font-semibold py-1 px-5 my-5 md:mx   rounded-2xl">
                                     Comprar ahora
                                 </Link>
                             </div>
