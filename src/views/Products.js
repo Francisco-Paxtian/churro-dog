@@ -53,40 +53,31 @@ const Products = () => {
   return (
 
     <div>
-      {user.length === 0 ? <div className="py-[10rem] text-center font-bold text-2xl text-azulito">
-        Para poder ver los productos neceistar iniciar sesión 
-        <br />
-        <br />
-        <Link to="/cuenta" className="bg-rojito hover:bg-rojitoSubidito text-white font-black py-1 px-5 my-5 md:mx   rounded-2xl">
-            Registrate ahora
-        </Link>
-        </div> :
-        <div className="contenedor padre  w-auto h-auto mb-20 sm:w-[95%] margin-0-auto ">
-          <div className="w-full h-[auto] bg-white mx-auto">
-            <div className="p-10">
-              <h1 className="text-xl lg:text-4xl 2xl:text-4xl  font-black text-black">
-                Nuestros p<a className="underline decoration-rojito">roductos</a>
-              </h1>
+      
+      <div className="contenedor padre  w-auto h-auto mb-20 sm:w-[95%] margin-0-auto ">
+        <div className="w-full h-[auto] bg-white mx-auto">
+          <div className="p-10">
+            <h1 className="text-xl lg:text-4xl 2xl:text-4xl  font-black text-black">
+              Nuestros p<a className="underline decoration-rojito">roductos</a>
+            </h1>
+          </div>
+          {loader && (
+            <div className="w-full flex justify-center items-center content-center">
+              <img
+                src={require("../assets/perroEsperando.gif")}
+                alt="Funny image"
+              />
             </div>
-            {loader && (
-              <div className="w-full flex justify-center items-center content-center">
-                <img
-                  src={require("../assets/perroEsperando.gif")}
-                  alt="Funny image"
-                />
-              </div>
-            )}
-            <div class="container mx-auto">
-              <div className="contenedor-padre w-full h-auto grid grid-cols-2 lg:grid-cols-4 2xl:grid-cols-4">
-                {products.map((data) => {
-                  return <Product key={data._id} product={data} />;
-                })}
-              </div>
+          )}
+          <div class="container mx-auto">
+            <div className="contenedor-padre w-full h-auto grid grid-cols-2 lg:grid-cols-4 2xl:grid-cols-4">
+              {products.map((data) => {
+                return <Product key={data._id} product={data} />;
+              })}
             </div>
-
           </div>
         </div>
-      }
+      </div>
 
     </div>
 

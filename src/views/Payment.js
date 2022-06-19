@@ -7,7 +7,7 @@ import { loadStripe } from '@stripe/stripe-js';
 import axios from "axios";
 import Swal from "sweetalert2";
 
-const stripePromise = loadStripe('pk_test_51KSAXbFEmDqbbZ7hFFml1LrgnwQtRByQMH58rbVWkoi4K7xDjYXwdKCRtR75YIVRENAZ75fnNa8P0czF1qldqiyu001yhuf4t8');
+const stripePromise = loadStripe('pk_live_51KZ0gYAJZvnkY0NbHmFV9kVN86SH3wYZY1voSnNVrRkLKIZR9D6uN5XWgAtMYkvY3f0QaExP4c8IXHjC8Ol95exQ00iwAuyioa');
 
 const Payment = () => {
 
